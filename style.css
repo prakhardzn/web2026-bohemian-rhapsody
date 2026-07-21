@@ -5,6 +5,37 @@
 
    .opera {
      background: hotpink;
+     
    }
 
    See css-properties.md for a menu of possible crimes. */
+/* The Outer Box Container */
+
+.opera{
+     background: brown;
+     text-align:center;
+     font-family: Brush Script MT, cursive;
+     font-size: 20px;
+     color:darkslategray
+ }
+body{ 
+  border: 20px dotted rgb(157, 205, 227);
+  text-align:right;
+  border-radius: 8px; /* Curves the sharp corners */
+    background-color:brown;
+    font-family: Brush Script MT, cursive;
+    font-size: 20px;
+color:darkslategray
+}
+.button{
+  background-color:indigo
+}
+img {
+  border-radius: 0%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
