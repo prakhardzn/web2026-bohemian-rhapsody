@@ -13,22 +13,28 @@
 
 .opera{
      background: brown;
+     background-image: url("https://i.pinimg.com/736x/6a/49/c0/6a49c08ad0e5212f68d1711caeb4d72e.jpg");
+     padding: 10px;
      text-align:center;
-     font-family: Brush Script MT, cursive;
-     font-size: 20px;
-     color:darkslategray
+     font-family: Impact, fantasy;
+     font-size: 10px;
+     color:rgb(0, 0, 0)
  }
 body{ 
-  border: 20px dotted rgb(157, 205, 227);
+  border: 100px solid transparent;
+  padding: 15px;
+  border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoRV0Bv_e1PohXiEyAPOwls_FGVW6JclHmcE0zjlnpXw&s=10) 30 round;
   text-align:right;
   border-radius: 8px; /* Curves the sharp corners */
     background-color:brown;
-    font-family: Brush Script MT, cursive;
+    background-image: url("https://i.pinimg.com/originals/f4/a7/c1/f4a7c1fd5f5056cbc63f948f66b187a7.gif");
+    font-family: Impact, fantasy;
     font-size: 20px;
-color:darkslategray
+color:rgb(0, 0, 0)
 }
-.button{
+button{
   background-color:indigo
+  
 }
 img {
   border-radius: 0%;
@@ -38,4 +44,35 @@ img {
 img:hover {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
+}
+.subtitle{
+  font-size: 10px;
+  text-align: center;
+}
+.intro h2{text-align: center;
+}
+.intro p{
+  text-align:left;
+  font-size: 10px;
+}
+.ballad h2{font-size: 80px;
+text-align: left;}
+.ballad p{font-size: 5px}
+.opera h2{ font-size: 80px}
+.rock h2{ text-align: left;}
+.rock p{ font-size: 5px}
+.outro p{
+  font-size: 10px;
+  text-align: center;
+}
+      .style-list {
+        font-size : 10px;
+        text-align : center;
+      }
+.outro h2{
+  font-size: 90px;
+  text-align: center;
+}
+.outra {
+  background-image: url("https://i.pinimg.com/originals/f4/a7/c1/f4a7c1fd5f5056cbc63f948f66b187a7.gif");
 }
